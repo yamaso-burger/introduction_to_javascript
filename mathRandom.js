@@ -8,8 +8,10 @@ loveScore = Math.floor(loveScore) + 1;
 if (loveScore > 70){
     alert("Your love score is " + loveScore + "%, You love each other like Kanye loves Kanye");
 
-}else {
+}else if(loveScore >30 && loveScore <= 70) {
     alert("Your love Score is " + loveScore + "%.")
+}else if (loveScore <= 30) {
+    alert("Your love score is " + loveScore + "%" + " Your go together like oil and water.");
 }
 
 // alert("The love score between " + fPerson + " and " + sPerson + " is: " + loveScore + " %!!");
