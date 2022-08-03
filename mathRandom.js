@@ -1,10 +1,17 @@
 var fPerson = prompt("Tell the first person's name.");
 var sPerson = prompt("Tell the second person's name.");
 
-var n = Math.random();
-n *= 100;
-n = Math.floor(n) + 1;
+var loveScore = Math.random();
+loveScore *= 100;
+loveScore = Math.floor(loveScore) + 1;
 
-alert("The love persentage between " + fPerson + " and " + sPerson + " is: " + n + " %!!");
+if (loveScore > 70){
+    alert("Your love score is " + loveScore + "%, You love each other like Kanye loves Kanye");
+
+}else {
+    alert("Your love Score is " + loveScore + "%.")
+}
+
+// alert("The love score between " + fPerson + " and " + sPerson + " is: " + loveScore + " %!!");
 
 //generate random number
